@@ -1,0 +1,27 @@
+// Colors
+$primary: #c167ef;
+$secondary: #10bcee;
+$dark: #2b3041;
+$light: #f3f6f9;
+$desc: #555555;
+
+// Navbar
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: $secondary;
+
+//Spacer
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
